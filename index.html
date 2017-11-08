@@ -40,8 +40,6 @@
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
 							<input type="checkbox" id="tsd-filter-externals" checked />
 							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
-							<input type="checkbox" id="tsd-filter-only-exported" />
-							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -65,9 +63,23 @@
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
 				<p><img src="https://lusito.github.io/typed-signals/typed_signals.png" alt=""></p>
-				<p><a href="https://travis-ci.org/Lusito/typed-signals"><img src="https://travis-ci.org/Lusito/typed-signals.svg?branch=develop" alt="Build Status"></a>
-					<a href="https://coveralls.io/github/Lusito/typed-signals"><img src="https://coveralls.io/repos/github/Lusito/typed-signals/badge.svg?branch=develop" alt="Code Coverage"></a>
-				<a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0%20Public%20Domain-blue.svg" alt="License"></a></p>
+				<p><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0%20Public%20Domain-blue.svg" alt="License"></a></p>
+				<table>
+					<thead>
+						<tr>
+							<th>Master</th>
+							<th><a href="https://travis-ci.org/Lusito/typed-signals"><img src="https://travis-ci.org/Lusito/typed-signals.svg?branch=master" alt="Build Status"></a></th>
+							<th><a href="https://coveralls.io/github/Lusito/typed-signals"><img src="https://coveralls.io/repos/github/Lusito/typed-signals/badge.svg?branch=master" alt="Code Coverage"></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Develop</td>
+							<td><a href="https://travis-ci.org/Lusito/typed-signals"><img src="https://travis-ci.org/Lusito/typed-signals.svg?branch=develop" alt="Build Status"></a></td>
+							<td><a href="https://coveralls.io/github/Lusito/typed-signals"><img src="https://coveralls.io/repos/github/Lusito/typed-signals/badge.svg?branch=develop" alt="Code Coverage"></a></td>
+						</tr>
+					</tbody>
+				</table>
 				<p>A type-checked <a href="https://en.wikipedia.org/wiki/Signals_and_slots">signal</a> library written in TypeScript, usable from plain JavaScript as well. This is a TypeScript port of this excellent C++11 version:
 					<a href="https://testbit.eu/cpp11-signal-system-performance/">Performance of a C++11 Signal System</a>.
 				Of course, some changes have been made to make it work with TypeScript.</p>
@@ -82,6 +94,7 @@
 					<li>No dependencies</li>
 					<li>Automated <a href="https://travis-ci.org/Lusito/typed-signals">unit tests</a>  with 100% <a href="https://coveralls.io/github/Lusito/typed-signals">code coverage</a></li>
 					<li>Liberal license: <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 Public Domain</a></li>
+					<li><a href="https://lusito.github.io/typed-ecstasy/index.html">Fully documented</a> using TypeDoc</li>
 				</ul>
 				<h3 id="installation-via-npm">Installation via NPM</h3>
 				<p><code>npm install typed-signals --save</code></p>
